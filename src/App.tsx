@@ -1,11 +1,16 @@
 import React from 'react';
 import './App.css';
+import {Navbar} from "./view/common/Navbar/Navbar";
+import {Main} from "./view/common/Main/Main";
+import {Footer} from "./view/common/Footer/Footer";
 
 function App() {
   return (
-          <h1 className="text-5xl font-bold text-center text-green-400">
-              work
-          </h1>
+          <>
+             <Navbar/>
+              <Main/>
+              <Footer/>
+          </>
   );
 }
 
