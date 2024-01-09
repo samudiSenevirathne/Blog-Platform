@@ -1,4 +1,5 @@
 import {Component} from "react";
+import {Link} from "react-router-dom";
 
 export class Navbar extends Component {
     render() {
@@ -7,7 +8,9 @@ export class Navbar extends Component {
                   <h1 className="text-black text-2xl font-bold">MyBlog</h1>
 
                 <ul className="flex list-none mt-1">
-                    <li className="inline-block mr-5 text-1xl text-black cursor-pointer">Home</li>
+                    <li className="inline-block mr-5 text-1xl text-black cursor-pointer">
+                    <Link to="/">Home</Link>
+                    </li>
 
                     {/*for future below li*/}
                     {/*<li className="inline-block mr-5 text-1xl text-black cursor-pointer ">Create New Post</li>*/}
