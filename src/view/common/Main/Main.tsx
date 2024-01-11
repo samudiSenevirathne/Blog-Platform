@@ -1,6 +1,7 @@
 import {Component} from "react";
 import {Route, Routes} from "react-router-dom";
 import {Home} from "../../pages/Home/Home";
+import {Login} from "../../pages/Login/Login";
 
 export class Main extends Component {
     render() {
@@ -8,6 +9,7 @@ export class Main extends Component {
             <div className="mx-auto">
             <Routes>
             <Route path="/" Component={Home}></Route>
+            <Route path="/Login" Component={Login}></Route>
             </Routes>
             </div>
         );

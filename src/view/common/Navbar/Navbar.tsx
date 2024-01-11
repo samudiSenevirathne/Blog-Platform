@@ -22,7 +22,8 @@ export class Navbar extends Component {
                     {/*</button>*/}
 
                     <button
-                        className="text-1xl text-white bg-black pl-4 pr-4 mr-5 hover:bg-black/70 font-bold rounded-b-lg rounded-t-lg text-center">SignIn
+                        className="text-1xl text-white bg-black pl-4 pr-4 mr-5 hover:bg-black/70 font-bold rounded-b-lg rounded-t-lg text-center">
+                        <Link to="/Login">SignIn</Link>
                     </button>
 
                 </ul>
