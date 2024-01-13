@@ -3,7 +3,7 @@ import {Component} from "react";
 export class Login extends Component {
     render() {
         return (
-            <div className="flex min-h-full flex-col justify-center px-6 py-12">
+            <div className="flex min-h-full flex-col justify-center px-6 py-8 border-black border-2 rounded-md mt-5 ml-5 mr-5 mb-0 ">
                 <div className="sm:mx-auto sm:w-full sm:max-w-sm">
                         <h2 className="mt-10 text-center text-2xl font-bold leading-9
                          text-black">L o g i n</h2>
@@ -35,7 +35,7 @@ export class Login extends Component {
                     </form>
 
                     <h1 className="mt-5 font-bold text-center text-sm text-black">Or</h1>
-                    <h1 className=" mt-3 mb-3 font-bold text-center text-sm text-black hover:cursor-pointer">
+                    <h1 className=" mt-3 font-bold text-center text-sm text-black hover:cursor-pointer">
                         create a new account</h1>
                 </div>
                 </div>

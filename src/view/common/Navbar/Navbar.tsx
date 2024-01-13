@@ -5,7 +5,7 @@ export class Navbar extends Component {
     render() {
         return (
             <div className="flex justify-between">
-                  <h1 className="text-black text-2xl font-bold">MyBlog</h1>
+                  <h1 className="text-black text-2xl font-bold ml-5">MyBlog</h1>
 
                 <ul className="flex list-none mt-1">
                     <li className="inline-block mr-5 text-1xl text-black cursor-pointer">
