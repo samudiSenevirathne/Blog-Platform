@@ -12,10 +12,11 @@ export class Home extends Component {
 
                     <div className= "w-full flex justify-center">
                         <br/>
-                            <img className="image-image" src={image} alt="image"/>
+                            <img className="image-image shadow-lg shadow-black " src={image} alt="image"/>
 
-                            <button className=" absolute self-center flex flex-row rounded-md bg-black px-3 py-1.5
-                                 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-black/90 more-btn" type="button">Read More
+                            <button className="absolute self-center flex flex-row rounded-md bg-black px-3 py-1.5
+                                 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-black/90 more-btn
+                                    animate-bounce dddl:block ddl:hidden" type="button">Read More
                                 <FontAwesomeIcon className="ml-2 my-auto" icon={faReadme} />
                             </button>
 
@@ -46,15 +47,18 @@ export class Home extends Component {
 
                 </div>
 
+
+
                 {/*test blog 02*/}
-                <div className=" flex flex-col lg:flex lg:flex-row ">
+                <div className=" flex flex-col lg:flex lg:flex-row mb-5 ">
 
                     <div className= "w-full flex justify-center">
                         <br/>
-                        <img className="image-image" src={image} alt="image"/>
+                        <img className="image-image shadow-lg shadow-black " src={image} alt="image"/>
 
-                        <button className=" absolute self-center flex flex-row rounded-md bg-black px-3 py-1.5
-                                 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-black/90 more-btn" type="button">Read More
+                        <button className="absolute self-center flex flex-row rounded-md bg-black px-3 py-1.5
+                                 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-black/90 more-btn
+                                    animate-bounce dddl:block ddl:hidden" type="button">Read More
                             <FontAwesomeIcon className="ml-2 my-auto" icon={faReadme} />
                         </button>
 
@@ -85,24 +89,11 @@ export class Home extends Component {
 
                 </div>
 
-                {/*Testing parts*/}
-                    {/*<div className="group/item hover:bg-slate-100 cursor-pointer ">*/}
-                    {/*    <div className="group/edit invisible hover:bg-slate-200 group-hover/item:visible ">*/}
-                    {/*        <div className="group-hover/edit:text-gray-700">Call</div>*/}
-                    {/*        <div className="group-hover/edit:translate-x-0.5 group-hover/edit:text-slate-500 "> </div>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
-
 
             </div>
 
-
-
         );
     }
-
-
-
 }
 
 
