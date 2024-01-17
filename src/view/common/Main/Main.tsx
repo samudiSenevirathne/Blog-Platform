@@ -3,6 +3,7 @@ import {Route, Routes} from "react-router-dom";
 import {Home} from "../../pages/Home/Home";
 import {Login} from "../../pages/Login/Login";
 import {CreateAccount} from "../../pages/CreateAccount/CreateAccount";
+import {FullViewBlog} from "../../pages/FullViewBlog/FullViewBlog";
 
 export class Main extends Component {
     render() {
@@ -12,6 +13,7 @@ export class Main extends Component {
              <Route path="/" Component={Home}></Route>
             <Route path="/Login" Component={Login}></Route>
             <Route path="/CreateAccount" Component={CreateAccount}></Route>
+            <Route path="/FullViewBlog" Component={FullViewBlog}></Route>
             </Routes>
             </div>
         );

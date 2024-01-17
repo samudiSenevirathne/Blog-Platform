@@ -9,6 +9,8 @@ module.exports = {
        screens: {
           'dddl': '0px',
            // => @media (min-width: 0px) { ... }
+           'adl': '375px',
+           // => @media (min-width: 375px) { ... }
          'ddl': '670px',
            // => @media (min-width: 670px) { ... }
         'dl': '1440px',
