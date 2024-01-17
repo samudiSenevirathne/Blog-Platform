@@ -30,7 +30,9 @@ export class Navbar extends Component {
                     </li>
 
                     {/*for future below li*/}
-                    {/*<li className=" mr-5 text-1xl text-black font-dancing cursor-pointer ">Create New Post</li>*/}
+                    <li className=" mr-5 text-1xl text-black font-dancing cursor-pointer ">
+                        <Link to="/CreateBlog">Create New Post</Link>
+                    </li>
 
                     <button
                         className="text-1xl text-white bg-black pl-4 pr-4 mr-5 hover:bg-black/70 font-bold
