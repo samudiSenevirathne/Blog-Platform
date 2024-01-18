@@ -9,13 +9,14 @@ export class FullViewBlog extends Component {
             rounded-md mt-5 ml-5 mr-5 mb-0 ">
                 {/*test Full view */}
 
-                <div className="mx-auto">
+                <div className="mx-auto flex flex-col">
                     <br/>
                         <h1 className="text-2xl font-bold">The top AI tools for designers in 2024</h1>
                     <br/>
                     <div className="flex adl:flex-row justify-evenly dddl:flex-col">
-                        <h1 className=" place-self-center text-gray-500  px-3 py-1.5 ">11:03:14</h1>
-                        <h1 className=" place-self-center text-gray-500  px-3 py-1.5 adl:ml-16">2023-01-01</h1>
+                        <h1 className=" place-self-center text-gray-500  px-5 py-1.5 ">11:03:14</h1>
+                        <br/>
+                        <h1 className=" place-self-center text-gray-500  px-3 py-1.5 ">2023-01-01</h1>
                     </div>
                     <br/>
                     <div className="flex adl:flex-row justify-evenly dddl:flex-col">
